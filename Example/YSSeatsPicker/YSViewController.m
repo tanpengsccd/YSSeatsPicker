@@ -30,6 +30,7 @@
 
 - (void)jump {
     YSSeatsSelectionsViewController *vc = [YSSeatsSelectionsViewController new];
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:vc animated:YES completion:nil];
     
 }

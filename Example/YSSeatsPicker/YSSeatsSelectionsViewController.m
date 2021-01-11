@@ -13,7 +13,7 @@
 #import "MJExtension.h"
 
 @interface YSSeatsSelectionsViewController ()
-
+//View
 @property (nonatomic, strong) YSSeatsPicker    *picker;
 
 @end
@@ -24,7 +24,7 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
-    
+    //数据
     NSString *path = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"Movie.plist"] ofType:nil];
     NSDictionary *seatsDic = [NSDictionary dictionaryWithContentsOfFile:path];
     NSArray *array = [YSMovieSection mj_objectArrayWithKeyValuesArray:seatsDic[@"sections"]];

@@ -41,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		2A4ECA71E3C8B9F60C3B145E /* Pods-YSSeatsPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSSeatsPicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSSeatsPicker_Tests/Pods-YSSeatsPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		37EC855E4FD6B90C8B4E6D26 /* YSSeatsPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YSSeatsPicker.podspec; path = ../YSSeatsPicker.podspec; sourceTree = "<group>"; };
+		37EC855E4FD6B90C8B4E6D26 /* YSSeatsPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YSSeatsPicker.podspec; path = ../YSSeatsPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3C8EE594A298B47B10ADBA95 /* Pods-YSSeatsPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSSeatsPicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSSeatsPicker_Example/Pods-YSSeatsPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5951A92F57F6DB7717AEACB7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5BF3D0312C178F136A071EA4 /* Pods-YSSeatsPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSSeatsPicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSSeatsPicker_Example/Pods-YSSeatsPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,17 +139,17 @@
 		6003F593195388D20070C39A /* Example for YSSeatsPicker */ = {
 			isa = PBXGroup;
 			children = (
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				7A226D981FDA7E3000D7183A /* Movie.plist */,
+				6003F594195388D20070C39A /* Supporting Files */,
 				6003F59C195388D20070C39A /* YSAppDelegate.h */,
 				6003F59D195388D20070C39A /* YSAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* YSViewController.h */,
-				6003F5A6195388D20070C39A /* YSViewController.m */,
-				7A226D981FDA7E3000D7183A /* Movie.plist */,
 				7A226D971FDA7E3000D7183A /* YSSeatsSelectionsViewController.h */,
 				7A226D991FDA7E3000D7183A /* YSSeatsSelectionsViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
+				6003F5A5195388D20070C39A /* YSViewController.h */,
+				6003F5A6195388D20070C39A /* YSViewController.m */,
 			);
 			name = "Example for YSSeatsPicker";
 			path = YSSeatsPicker;
@@ -219,7 +219,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				C1E65905CB6A471C601C6D46 /* [CP] Embed Pods Frameworks */,
-				C6CF82747F119E7E2D553A31 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,8 +237,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				1C5AA36B61011BFB24593C15 /* [CP] Embed Pods Frameworks */,
-				D1AA0A45443A907016D43A2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,7 +259,7 @@
 				ORGANIZATIONNAME = yu;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = H7VUFQG7U7;
+						DevelopmentTeam = 69NY7TFEUP;
 						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
@@ -275,6 +272,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -314,21 +312,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C5AA36B61011BFB24593C15 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSSeatsPicker_Tests/Pods-YSSeatsPicker_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		35589013DA3F076FB04A41E5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,7 +354,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YSSeatsPicker_Example/Pods-YSSeatsPicker_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-YSSeatsPicker_Example/Pods-YSSeatsPicker_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/YSSeatsPicker/YSSeatsPicker.framework",
 			);
@@ -382,37 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSSeatsPicker_Example/Pods-YSSeatsPicker_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C6CF82747F119E7E2D553A31 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSSeatsPicker_Example/Pods-YSSeatsPicker_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D1AA0A45443A907016D43A2F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSSeatsPicker_Tests/Pods-YSSeatsPicker_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YSSeatsPicker_Example/Pods-YSSeatsPicker_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -577,12 +530,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H7VUFQG7U7;
+				DEVELOPMENT_TEAM = 69NY7TFEUP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YSSeatsPicker/YSSeatsPicker-Prefix.pch";
 				INFOPLIST_FILE = "YSSeatsPicker/YSSeatsPicker-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.aa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
@@ -596,12 +549,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H7VUFQG7U7;
+				DEVELOPMENT_TEAM = 69NY7TFEUP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YSSeatsPicker/YSSeatsPicker-Prefix.pch";
 				INFOPLIST_FILE = "YSSeatsPicker/YSSeatsPicker-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.aa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;

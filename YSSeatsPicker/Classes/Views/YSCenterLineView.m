@@ -8,8 +8,8 @@
 
 #import "YSCenterLineView.h"
 
-#import <UIView+YSAddition.h>
-
+//#import <UIView+YSAddition.h>
+#import "UIView+YSAddition.h"
 @interface YSCenterLineView ()
 {
     UILabel *_centerLabel;

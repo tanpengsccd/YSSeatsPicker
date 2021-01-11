@@ -7,482 +7,529 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		036C0637B0DDA3EC61C9AC887722F61F /* Pods-YSSeatsPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 147C0EB046BCDCE4AF7FE25E4E6239F3 /* Pods-YSSeatsPicker_Example-dummy.m */; };
-		068F6DF04EF0371EEC29C6787B63910B /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D6FB284F79679CAFC96E2B374FF302 /* NSObject+MJProperty.m */; };
-		094E6ECE34F0CCB085FAA095D24708F4 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6FF722B58512EAF636070DC72CC7A /* MJPropertyType.m */; };
-		0A1D1BA5F4A6861F59960AE501A61367 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EB574A30430349912B9AA0E12991FB76 /* MJPropertyKey.m */; };
-		0B67D51C35E79EE135E38084317053DA /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = F18D18F4F677D18DFE17FF43AA71A3C6 /* NSObject+MJKeyValue.m */; };
-		11BF0A3C217C5233EF08A6A2623CEA80 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C4E8583FBE38883C9A8F6CED0B9AB8 /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1649B9624B3AB3616040A33FEDDF659D /* YSMovieTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7F5C7FB000F355E2E03A5106F94E8A /* YSMovieTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1780B535125B1EE3F705B1D56A7F5F63 /* UIView+YSAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F9A428082FD14A9DBCBBE54C9A27B3 /* UIView+YSAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18691CDE7875E732B251936A13CD92BE /* YSMovieSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 631AAF3F845826F3C100F85D4F3B4BB1 /* YSMovieSection.m */; };
-		1A3BD291C54265A5042873879164134E /* YSSeatsPickerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0600BD5CA8439925484F2008A69E7623 /* YSSeatsPickerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AA9032250A1C081FE9256987BEA7DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1F03B8D375D6E9BEACF24EFE010C1F9F /* YSIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B95E9D3D207025EDD98A7EE18DD5FDF /* YSIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F3AA5B9EBAAD134BF25B0B89FDF108B /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 814D74953564BF921B106C5A8A00E18F /* NSString+MJExtension.m */; };
-		1F763DC58B453173403A500D05ECD141 /* YSSeatsPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B978A7A958EAC3F16306E0B18426EE25 /* YSSeatsPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FBFD94316326DCB9485F8704696806B /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F21D3B6AB8A0B971DE7A16782E2E38A0 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E04F7FD19DB0B64EA10207786F864EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		300E98C1A679785CFF1897421B2C7837 /* YSHallLogoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8306D1CE6A5EE5F271E15B38516ADE07 /* YSHallLogoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		383448308BB9C5CB67073E0A8DED4A43 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = EDDBBBC1617D4C1B338F6208FFEC7DC4 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C51E6346BC8E206FB219EC6B494DE94 /* YSIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BA9E75B38DF6AD03164E4D1058832 /* YSIndicatorView.m */; };
-		56B85C22AB91197B0187D76E6705F66C /* YSMovieTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B7BCA18DDD4DA24099FD51C35A27C8 /* YSMovieTools.m */; };
-		58EFF22FEFA78894F9F808799F961BD5 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D90F731A3053DB7591E623D48A281E /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59A28C2CEFC4537C9DAF55D01C4ACED1 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F39865043ADE8A6C5C7161C21F5942 /* MJExtension-dummy.m */; };
-		5BD2A9D0D752792C18F1E7F6CDBEB0FA /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A410D0C9C7AA0EF8CB20F85639B8D29 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E89ED15FDB4CE7F92544DDF4589C242 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3BDE87C47FE4DA2F8B63B9423E7E1E /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6343ED5E5D874F8DD7CE370F3876F098 /* ZYSMovie.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AF2E4E319FA37E421350044D22A14E4 /* ZYSMovie.bundle */; };
-		64298620A2F1EFAB12386F3861E08D40 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F358B618C95AF5B81525A3E913689B /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DA14D61DB56E00FF18F2F75C51454AE /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1C24B69A9CA3A0E89CD5BFA5FF4A8F /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7410B2A65C0651D85D3B173865D3026B /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193F6B3E7DA4B89DB231331D181C4B9 /* NSObject+MJClass.m */; };
-		8835F9867B83B905F6C75FFD54ADC45C /* YSCenterLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D6FED6FA5958872B49A6C6D23A718D /* YSCenterLineView.m */; };
-		8EC1C8F8C76EDF5D019E8EBA01C2ABB3 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E18CF79B9C18D81A7E99EA6A3B69C77F /* NSObject+MJCoding.m */; };
-		98D1108050F3D9E9BB44E8C06C04B660 /* UIView+YSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB02BDFB1ADEEF84060538ED6742F93 /* UIView+YSAddition.m */; };
-		A61CBA1B7EC469C602F47186539239E0 /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAA16945786608E1C9962CCE56900A6 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B02C05F25F897D747FE2B7B2B4D4BACC /* YSHallLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5928AAA0C323CFD99F9DA339853C48DF /* YSHallLogoView.m */; };
-		B0D5610E57EB1A1977EE3544B66E3FBF /* Pods-YSSeatsPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5311D418291322C81E7F03A6D625873D /* Pods-YSSeatsPicker_Tests-dummy.m */; };
-		B26868726D9ED8BEE961BCC4F7D72E05 /* YSMovieSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E0BA149DC4D117C8CD7AC6DF4C911EC /* YSMovieSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2774A17E9B709B0B900DBB4C6E9363F /* YSMovieSeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F21765E7E22C669730DCA31CE5FC27 /* YSMovieSeat.m */; };
-		B5BD73E37A532CF22E8ECF7640B71FFB /* YSSeatsPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D73B4547163207A592BEFCB713ED6C9A /* YSSeatsPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5CD2373C28A39FC82706F25D5FDB5C3 /* Pods-YSSeatsPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5C8CE37C2B14052D271F5B495A458F /* Pods-YSSeatsPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7B68FDABB146B87FA3C9E987D2014DE /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = BA34D708EF1B72D4A38AC39D19AD1F24 /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8390A3BAC70A72CEFC32A5AECFB1E63 /* YSCenterLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 991E0BDBD68056B62887AB10F413AF0D /* YSCenterLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA506236475B5ED8122E4EE17FA387E1 /* YSMovieSeat.h in Headers */ = {isa = PBXBuildFile; fileRef = EE477F978E557018E47EFB1836A4AD9D /* YSMovieSeat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF5E26A11B9EE5566E07E3072F2AF0A5 /* YSSeatsPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3267DCE61C79F5B0F8066A15182A94D8 /* YSSeatsPicker.m */; };
-		BFC85CA600741BB6F356F56B9424D976 /* YSSeatsButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD3A1C8E5A04F496B741B82D28ABF08 /* YSSeatsButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD4D283A61707C386754BBD31F5BEABB /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C8878A9E0690D04B5D51B122920D7 /* MJExtensionConst.m */; };
-		CF613C45AD04248C52488C4F7CA3719B /* Pods-YSSeatsPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A48AF133067B5E6E2B1DFC22E1F649E0 /* Pods-YSSeatsPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D01AEDD696993D44A516A8E1B8A1C2B4 /* YSSeatsIndexView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BB9D7D9023999893CC9E07EF4B1FC3 /* YSSeatsIndexView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E46BBE326FB10A351BB37C883BB2DE69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E5FCA2ABBE2C5EF75F004103BC26D472 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A3A3C34DED74C98A33BB0948DCBCEB /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E697D14E581CAEE081A1F6B467A014B7 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 790A2F1E41BCD00D834922AF37F8FCC7 /* MJProperty.m */; };
-		E8C193D5CE82EDAF5022945F5EC30CDB /* YSSeatsPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 043769942FE00243C92CE8F7AB3DC7FC /* YSSeatsPicker-dummy.m */; };
-		F53BE19B2CB360AC554A04B27DED8519 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 545233A544BE3DDF31F05409EE873594 /* MJFoundation.m */; };
-		F75E2AE2D12480AE889D1D3B7A654FAA /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 871F4E87C6D9BE7F5B1DFE948341EB0E /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7AD74FDED30B69518D342462E71F76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FA179AB473FF767743026AF13B1D27B2 /* YSSeatsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C474871FCD8B832ED4EB5E29ECCB30 /* YSSeatsButton.m */; };
-		FC4C0BD4C813163252B05E283316F57C /* YSSeatsIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD5B4225109487E783F8BEFBAEDC15B /* YSSeatsIndexView.m */; };
+		0077E2C1E1042512F36A3204CFD42BEF /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DBDD41C00E04DBB9C274BD293F14DA /* NSObject+MJClass.m */; };
+		01E3E1FB1F9A0FA56C79608F8139A32F /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0EC9D5133B0B0939C524CD463CB225 /* MJExtensionConst.m */; };
+		033484819373AB7E020C0026CAE0F7BF /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD8143D09D486240B9457CEDB2F4921 /* MJFoundation.m */; };
+		04A695C58948C73FF485B8D853E1C47A /* YSSeatsPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 227E7390A78787019533EFC934A0AC4D /* YSSeatsPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05452B06007B8F1969A23C3C9D494CBD /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE230A136C33D5DFC04E7CF843F6AA3 /* MJExtension-dummy.m */; };
+		07288680C9E7EDC1E240E0E3C50EE65C /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F2D4B6FA59D541EA2D7414CED63243 /* NSObject+MJProperty.m */; };
+		0BE3BE55C664F32D89864DB437078A07 /* YSMovieSection.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4C754F74C53558BFCF249B6446581F /* YSMovieSection.m */; };
+		21DADCDCF9E25C9363B995EBD6F5CDD7 /* ZYSMovie.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0987812C30EA10DB11519C3102C36340 /* ZYSMovie.bundle */; };
+		234DC1612D3A0AA48B4FA8210BEDB6C8 /* Pods-YSSeatsPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62679A67233804CE693BEF7A490A091F /* Pods-YSSeatsPicker_Tests-dummy.m */; };
+		25E03213AA01D83EB415A04635B34F1A /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 722454F711E3EB3686DFDDA5905AD548 /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		284BF6AC7B28D1EA5791D595AF2034AF /* YSSeatsPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7AF44E7426A32CEA715C622943855C /* YSSeatsPicker.m */; };
+		2AB68E1FF77C13971F6FA58D6CEA6B56 /* YSMovieSeat.m in Sources */ = {isa = PBXBuildFile; fileRef = F613EADE15467FC2986B6398A8998D6F /* YSMovieSeat.m */; };
+		3BAA6DDBE44238B40D6A72A16EF41814 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C748F53D69C9F41894F8E3EE99D4E6 /* MJProperty.m */; };
+		41BBD20F99D3D0EFD9D38337503D4C1F /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4AA39722992178C121890FF107BDFDB /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		464BE5F294EA7CC26AE101D0A24EFB3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		51E7A17D617310CE81444F5D315EAEF0 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAED9402B0A0ED183081BF7FABAA59F /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54B348888465583C533D048D03AEF71B /* YSMovieSeat.h in Headers */ = {isa = PBXBuildFile; fileRef = DCAC8F6E5D2A60ED4F8A1504FFF60488 /* YSMovieSeat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60994706AA16B07EAA4D01012262FAB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6EC015330CAC3D60745A20B01928B8DB /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = B925662A8ED0D15431C1D807885D30C8 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7155607EADA71F37CFE188D866B7E40A /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = F9888BA6FEC1DE1D26D45D995FBAE643 /* MJPropertyKey.m */; };
+		7BE71B62F38458AC771581F60006F9CE /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FAF5EB1DD403C7CDB888674662D978 /* NSObject+MJCoding.m */; };
+		83455FB7689A34DD947D2208C21C6155 /* Pods-YSSeatsPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60881390D749F8E7E7E0E2C633639E5D /* Pods-YSSeatsPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		879971388AB685F1B4B97B7EDA799DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8A2E1E487FBFC3DF55C12C056BFA36A1 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 9439ED235893B1765356769F00419D69 /* MJPropertyType.m */; };
+		912758556B9AB1DEEABE189955C5B8F2 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC2F4FEDA5480035CE1BAF83E25D914 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9796F9FAC1941A992E8B17F31D62B2E4 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0D1CDFA422DF34E039272161E024D3 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99BF63084CB0EDEA0A9CBB77E8315E6E /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E382DC0FAFC66BEB5E97EC9FA55C4C /* NSObject+MJKeyValue.m */; };
+		A058A2CF864C3B315E4EC53EA44C2622 /* YSSeatsPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 889FD38F0F6FBAE4B8B2271AF6F089DE /* YSSeatsPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A47472F50A3A7869A644789159571A5C /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 647DEB7154D476B029B4483DB8CE289E /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF6950C3AAF57FCAA706D1A519670A1 /* Pods-YSSeatsPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F774351F6DDA1F4B2C22809B375A59DF /* Pods-YSSeatsPicker_Example-dummy.m */; };
+		B7A369784E9501E40333AE9D082E98BA /* Pods-YSSeatsPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D725FBDEC1404E92AAA9585E2D188D8E /* Pods-YSSeatsPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B94AD428EA4EFD7BA79BCF57680D390A /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = F1677E44A587E61DCA0F931B2889708A /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C8961B2EAF90DA7244B427C569FCFD /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E1F10EA913620099996314C434C50D /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C335E40BDDC668EF75062F7DE066D34A /* YSMovieSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4541AF44CC4ED44AD1DF7C62AA6A0AAC /* YSMovieSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4F2F36D475E9D0FB20D9D0BDFCA5072 /* YSMovieTools.h in Headers */ = {isa = PBXBuildFile; fileRef = B538D3FDD44F4D8D2BB06653562F0103 /* YSMovieTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4F6A6680B7F62E4521B55426D490242 /* YSSeatsPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819E9CAC438027F99B1288BF948727C /* YSSeatsPicker-dummy.m */; };
+		C573BE066F75EBF56D416F5D3BBFAD1E /* YSMovieTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B9FE73D3077B46C3780DB1EBB90195 /* YSMovieTools.m */; };
+		CAD2539BE3C4AB2F1FD1DF30D7629238 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A92C2B40005CF9A440380490CC1C808 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFCBE1CEB10DE6004031824A /* YSSeatsIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCBEA6879226AF7BEBDD992 /* YSSeatsIndexView.m */; };
+		CFCBE21AF431CF725AB9CB74 /* YSSeatsButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCBE6B314C536C6B5FB4416 /* YSSeatsButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFCBE62D06043534010AC879 /* YSCenterLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCBEA04B55E3D7D67BD5A54 /* YSCenterLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFCBE6C5D5C71194F067970B /* YSSeatsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCBEA4779612F424ACC6D30 /* YSSeatsButton.m */; };
+		CFCBE83FD460759772AD2E25 /* YSCenterLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCBE3A2A7969417054E4A70 /* YSCenterLineView.m */; };
+		CFCBE891031C4194F26A6647 /* YSSeatsPickerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCBEAC686C2F5E627D29888 /* YSSeatsPickerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFCBE8A7CC13DE80BCA0A8F3 /* YSIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCBED92C7EB51B5CE1401D7 /* YSIndicatorView.m */; };
+		CFCBE9218685BA008C4B1E5B /* YSSeatsIndexView.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCBE2BBD6018995CDF902AD /* YSSeatsIndexView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFCBE98BD2321ED321E8667D /* YSHallLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCBE0956E50FE056D27C7A8 /* YSHallLogoView.m */; };
+		CFCBE99DADD44CFE2AF31641 /* YSIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCBEAE68DBA40FCCDB1F408 /* YSIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFCBEAC6C3DCC57DCA55044E /* UIView+YSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCBEBA2825078C67C817756 /* UIView+YSAddition.m */; };
+		CFCBEBFC5D7E390DEA11E8B7 /* UIView+YSAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCBE1D3BB0154C1AEF1BCCD /* UIView+YSAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFCBED7AFC55DD361A587595 /* YSHallLogoView.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCBE80D2D8C5DA4F54E3230 /* YSHallLogoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6775033B3F0080B56E29AB395A08867 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD97592D9872742C8B28DA6FC033DB1 /* NSString+MJExtension.m */; };
+		EF2B5879EB0AC8EF2C4E92B17D4F62C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F0EF96DAB145D1B2247C01B3517B54FE /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A82A404B552FB57557D37DC51173CFF /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB7CF107E7E3EE6FA7949CF18B8BA12 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2E660F26D90631109BC6C139DCBE03 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		90E0CBDD7160E75FB0F6057ADBC8DF64 /* PBXContainerItemProxy */ = {
+		3F810AFE5BF0DA0495091AF4A9C7F17F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5AA17C95E926B760FD08E0B487DAEFA2;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
 			remoteInfo = MJExtension;
 		};
-		B4C6DA55469FD5F4D524F02AFA943A10 /* PBXContainerItemProxy */ = {
+		D25DE45597A4962F50947B2D16DE868F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA988E6A325BC86F9E4BE131E0A1ABB8;
+			remoteGlobalIDString = 03308FCF8E7A776235F84EAF5D9A9274;
+			remoteInfo = "Pods-YSSeatsPicker_Example";
+		};
+		D2CC46F138978E022A0B2A8C1697C6D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6071D5F0A9410A7C33C2FB71D67990B;
 			remoteInfo = YSSeatsPicker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		043769942FE00243C92CE8F7AB3DC7FC /* YSSeatsPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSSeatsPicker-dummy.m"; sourceTree = "<group>"; };
-		0600BD5CA8439925484F2008A69E7623 /* YSSeatsPickerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSSeatsPickerHeader.h; sourceTree = "<group>"; };
-		088BA9E75B38DF6AD03164E4D1058832 /* YSIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSIndicatorView.m; sourceTree = "<group>"; };
-		0A410D0C9C7AA0EF8CB20F85639B8D29 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
-		0E3BDE87C47FE4DA2F8B63B9423E7E1E /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
-		11C474871FCD8B832ED4EB5E29ECCB30 /* YSSeatsButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSSeatsButton.m; sourceTree = "<group>"; };
-		1373DE3DDE225B5667E83861D6D4A10A /* YSSeatsPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSSeatsPicker-prefix.pch"; sourceTree = "<group>"; };
-		147C0EB046BCDCE4AF7FE25E4E6239F3 /* Pods-YSSeatsPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSSeatsPicker_Example-dummy.m"; sourceTree = "<group>"; };
-		1A1D6C2A1F25106D62FB7E180C845D9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22802D6503C93A29B4C630172941360A /* Pods-YSSeatsPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSSeatsPicker_Tests-resources.sh"; sourceTree = "<group>"; };
-		22F21765E7E22C669730DCA31CE5FC27 /* YSMovieSeat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSMovieSeat.m; sourceTree = "<group>"; };
-		28A81D929F589E43A21CF4246F581E92 /* Pods-YSSeatsPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSSeatsPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2AF2E4E319FA37E421350044D22A14E4 /* ZYSMovie.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZYSMovie.bundle; path = YSSeatsPicker/Assets/ZYSMovie.bundle; sourceTree = "<group>"; };
-		2B95E9D3D207025EDD98A7EE18DD5FDF /* YSIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSIndicatorView.h; sourceTree = "<group>"; };
-		2E0BA149DC4D117C8CD7AC6DF4C911EC /* YSMovieSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSMovieSection.h; sourceTree = "<group>"; };
-		3267DCE61C79F5B0F8066A15182A94D8 /* YSSeatsPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSSeatsPicker.m; sourceTree = "<group>"; };
-		355099623F7530895DDFB8F60F072DC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		355FE1A44815D024EE3C7CC9A619E54D /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MJExtension.modulemap; sourceTree = "<group>"; };
-		368E774FF38975D032B5E4823FFFE72C /* Pods-YSSeatsPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSSeatsPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		371DCC627A9CFFCE0AE44F6A3869ABF4 /* Pods-YSSeatsPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSSeatsPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3A898EFF4E7A1586E92094F94B89A8E2 /* Pods-YSSeatsPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSSeatsPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4042F751B582695E5BDAEBCF605BBF93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42D6FED6FA5958872B49A6C6D23A718D /* YSCenterLineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSCenterLineView.m; sourceTree = "<group>"; };
-		43A423FA70AA30D6F2A27D4632FA3DA7 /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
-		44A7C3C2CFE34D3DD33C0EB8F8B816BF /* Pods-YSSeatsPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSSeatsPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		46F9A428082FD14A9DBCBBE54C9A27B3 /* UIView+YSAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+YSAddition.h"; sourceTree = "<group>"; };
-		4A5C8CE37C2B14052D271F5B495A458F /* Pods-YSSeatsPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSSeatsPicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		4A7F5C7FB000F355E2E03A5106F94E8A /* YSMovieTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSMovieTools.h; sourceTree = "<group>"; };
-		5311D418291322C81E7F03A6D625873D /* Pods-YSSeatsPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSSeatsPicker_Tests-dummy.m"; sourceTree = "<group>"; };
-		545233A544BE3DDF31F05409EE873594 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
-		547E04D294F257132BC831ADCECD9C6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5928AAA0C323CFD99F9DA339853C48DF /* YSHallLogoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSHallLogoView.m; sourceTree = "<group>"; };
-		5AB6FF722B58512EAF636070DC72CC7A /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
-		631AAF3F845826F3C100F85D4F3B4BB1 /* YSMovieSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSMovieSection.m; sourceTree = "<group>"; };
-		63D90F731A3053DB7591E623D48A281E /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		667EFD6237ACA4839F87273143773D4C /* Pods-YSSeatsPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSSeatsPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6889FFE66F336792FA6123BE113B4663 /* Pods-YSSeatsPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YSSeatsPicker_Example.modulemap"; sourceTree = "<group>"; };
-		6EB02BDFB1ADEEF84060538ED6742F93 /* UIView+YSAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+YSAddition.m"; sourceTree = "<group>"; };
-		73D6FB284F79679CAFC96E2B374FF302 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
-		790A2F1E41BCD00D834922AF37F8FCC7 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
-		79C7299B4F895E3ED2C0A1E73AA8FA4E /* Pods-YSSeatsPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSSeatsPicker_Example-resources.sh"; sourceTree = "<group>"; };
-		7A69F0A3BDE8E6782CF7E3FFB131FFC9 /* YSSeatsPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YSSeatsPicker.modulemap; sourceTree = "<group>"; };
-		7D9ABD7A0EC7FCB699B33C4E3C6422F7 /* Pods-YSSeatsPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSSeatsPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7DD3A1C8E5A04F496B741B82D28ABF08 /* YSSeatsButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSSeatsButton.h; sourceTree = "<group>"; };
-		814D74953564BF921B106C5A8A00E18F /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
-		8306D1CE6A5EE5F271E15B38516ADE07 /* YSHallLogoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSHallLogoView.h; sourceTree = "<group>"; };
-		871F4E87C6D9BE7F5B1DFE948341EB0E /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
-		8DD5B4225109487E783F8BEFBAEDC15B /* YSSeatsIndexView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSSeatsIndexView.m; sourceTree = "<group>"; };
-		9193F6B3E7DA4B89DB231331D181C4B9 /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		991E0BDBD68056B62887AB10F413AF0D /* YSCenterLineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSCenterLineView.h; sourceTree = "<group>"; };
-		9E964DD096C0F8A67DCB5F87F845A92D /* Pods-YSSeatsPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSSeatsPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A48AF133067B5E6E2B1DFC22E1F649E0 /* Pods-YSSeatsPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSSeatsPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A6F39865043ADE8A6C5C7161C21F5942 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
-		A80553F8AC1793E4EF3FB07858A92667 /* Pods_YSSeatsPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YSSeatsPicker_Tests.framework; path = "Pods-YSSeatsPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A93E3C6635323BCD8BAFDF9C03A2610D /* Pods-YSSeatsPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSSeatsPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AF5C8878A9E0690D04B5D51B122920D7 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
-		B4C4E8583FBE38883C9A8F6CED0B9AB8 /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
-		B978A7A958EAC3F16306E0B18426EE25 /* YSSeatsPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSSeatsPicker-umbrella.h"; sourceTree = "<group>"; };
-		BA34D708EF1B72D4A38AC39D19AD1F24 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
-		C5F358B618C95AF5B81525A3E913689B /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
-		C80C04D32B7A277AE81E06FE4E014C84 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9ECC967E891FF92252398B969B05EDF /* Pods-YSSeatsPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YSSeatsPicker_Tests.modulemap"; sourceTree = "<group>"; };
-		CDAA16945786608E1C9962CCE56900A6 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
-		D353FBC066C01622661B65670D1F297E /* Pods-YSSeatsPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSSeatsPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D5B7BCA18DDD4DA24099FD51C35A27C8 /* YSMovieTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSMovieTools.m; sourceTree = "<group>"; };
-		D73B4547163207A592BEFCB713ED6C9A /* YSSeatsPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSSeatsPicker.h; sourceTree = "<group>"; };
-		D9B34E0F2D80D48B7F00540C7733B21F /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
-		DCBFC1F092A267FB195EAFC811D48BFF /* Pods_YSSeatsPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YSSeatsPicker_Example.framework; path = "Pods-YSSeatsPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E18CF79B9C18D81A7E99EA6A3B69C77F /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
-		E1BB9D7D9023999893CC9E07EF4B1FC3 /* YSSeatsIndexView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSSeatsIndexView.h; sourceTree = "<group>"; };
-		E2A3A3C34DED74C98A33BB0948DCBCEB /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
-		E87B36AD75E049F473096502878E493C /* YSSeatsPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSSeatsPicker.xcconfig; sourceTree = "<group>"; };
-		EB574A30430349912B9AA0E12991FB76 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
-		EDDBBBC1617D4C1B338F6208FFEC7DC4 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
-		EE477F978E557018E47EFB1836A4AD9D /* YSMovieSeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSMovieSeat.h; sourceTree = "<group>"; };
-		EF1C24B69A9CA3A0E89CD5BFA5FF4A8F /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
-		F18D18F4F677D18DFE17FF43AA71A3C6 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		F21D3B6AB8A0B971DE7A16782E2E38A0 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
-		F9C14EB2F8F212A1B08C08C708DC856E /* YSSeatsPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YSSeatsPicker.framework; path = YSSeatsPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0661CE42271C3D832851D7C1C492D01B /* Pods-YSSeatsPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSSeatsPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0987812C30EA10DB11519C3102C36340 /* ZYSMovie.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZYSMovie.bundle; path = YSSeatsPicker/Assets/ZYSMovie.bundle; sourceTree = "<group>"; };
+		09B021829FBEAA027288A38973C0845A /* Pods-YSSeatsPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSSeatsPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0A40540F7C68D4BD6FB630438A336B10 /* Pods-YSSeatsPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSSeatsPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1223231E266F0A9C0B21936E736F8F93 /* YSSeatsPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YSSeatsPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		15E382DC0FAFC66BEB5E97EC9FA55C4C /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		179DDBD46C07A1F020340A47F746FD4F /* Pods-YSSeatsPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSSeatsPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		17B9FE73D3077B46C3780DB1EBB90195 /* YSMovieTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSMovieTools.m; sourceTree = "<group>"; };
+		1D2E660F26D90631109BC6C139DCBE03 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		227E7390A78787019533EFC934A0AC4D /* YSSeatsPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSSeatsPicker.h; sourceTree = "<group>"; };
+		2A92C2B40005CF9A440380490CC1C808 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		2B172359AAB5A522D44668C0BBF3EBEE /* Pods-YSSeatsPicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSSeatsPicker_Tests-Info.plist"; sourceTree = "<group>"; };
+		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36694B65D9EAE207E31A7867C9154A8B /* YSSeatsPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YSSeatsPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FAF5EB1DD403C7CDB888674662D978 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		4541AF44CC4ED44AD1DF7C62AA6A0AAC /* YSMovieSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSMovieSection.h; sourceTree = "<group>"; };
+		46D5B5CFB54153EC0FA5FDAECEC800D6 /* Pods_YSSeatsPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSSeatsPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0D1CDFA422DF34E039272161E024D3 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		520A3A9FD574A96B394D81B865C1E6BB /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		52E1F10EA913620099996314C434C50D /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		587A98033EEAE1B48BBE8ED305B88409 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5AC2F4FEDA5480035CE1BAF83E25D914 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		5E9B265E4D77835B61A0DFBC91293F80 /* Pods-YSSeatsPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSSeatsPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60881390D749F8E7E7E0E2C633639E5D /* Pods-YSSeatsPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSSeatsPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		62679A67233804CE693BEF7A490A091F /* Pods-YSSeatsPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSSeatsPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		647DEB7154D476B029B4483DB8CE289E /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		6A7AF44E7426A32CEA715C622943855C /* YSSeatsPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSSeatsPicker.m; sourceTree = "<group>"; };
+		718B609EF8F64B71E13C2719CC23BE33 /* YSSeatsPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YSSeatsPicker.modulemap; sourceTree = "<group>"; };
+		722454F711E3EB3686DFDDA5905AD548 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79C616BF9BD9174301E16AF42951B2E5 /* YSSeatsPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSSeatsPicker.debug.xcconfig; sourceTree = "<group>"; };
+		7A82A404B552FB57557D37DC51173CFF /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		8819E9CAC438027F99B1288BF948727C /* YSSeatsPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSSeatsPicker-dummy.m"; sourceTree = "<group>"; };
+		889FD38F0F6FBAE4B8B2271AF6F089DE /* YSSeatsPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSSeatsPicker-umbrella.h"; sourceTree = "<group>"; };
+		88BADB11EFD33109D0F47395F9F6B2E7 /* Pods-YSSeatsPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSSeatsPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8B12F986CFAB83866E5CBC07A656C387 /* Pods-YSSeatsPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSSeatsPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8C0EC9D5133B0B0939C524CD463CB225 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		91BF16CBA944B1CB1E77B67612DC46E0 /* YSSeatsPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSSeatsPicker.release.xcconfig; sourceTree = "<group>"; };
+		9439ED235893B1765356769F00419D69 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		966A259E9D7037222198CEB02509A6CC /* YSSeatsPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YSSeatsPicker-Info.plist"; sourceTree = "<group>"; };
+		9C1F5E1ABE703D9A8E6AE9D4FAD0DA07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EAED9402B0A0ED183081BF7FABAA59F /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		A71F4545F2FD1645C93C257C08B02334 /* Pods_YSSeatsPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSSeatsPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E0E4C7DAE2FC0431C810A8414E4F36 /* Pods-YSSeatsPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSSeatsPicker_Example-Info.plist"; sourceTree = "<group>"; };
+		A9DBDD41C00E04DBB9C274BD293F14DA /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		AE50B7EE9A124F287F0E8BD0FA9A1D65 /* Pods-YSSeatsPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YSSeatsPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		B3E2896E58D70126F579F90790BB4670 /* MJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExtension-Info.plist"; sourceTree = "<group>"; };
+		B538D3FDD44F4D8D2BB06653562F0103 /* YSMovieTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSMovieTools.h; sourceTree = "<group>"; };
+		B7C748F53D69C9F41894F8E3EE99D4E6 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		B925662A8ED0D15431C1D807885D30C8 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		BDA2B3314730109EA5D592F99FA0D7D4 /* Pods-YSSeatsPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSSeatsPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C82CFA68338AEADD159FADC48FB51D1E /* Pods-YSSeatsPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YSSeatsPicker_Example.modulemap"; sourceTree = "<group>"; };
+		CCD8143D09D486240B9457CEDB2F4921 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		CDD97592D9872742C8B28DA6FC033DB1 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		CE4AE92E87BA615AC8C329B245AB7B44 /* MJExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.debug.xcconfig; sourceTree = "<group>"; };
+		CF4C754F74C53558BFCF249B6446581F /* YSMovieSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSMovieSection.m; sourceTree = "<group>"; };
+		CFCBE0956E50FE056D27C7A8 /* YSHallLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSHallLogoView.m; path = ../YSHallLogoView.m; sourceTree = "<group>"; };
+		CFCBE1D3BB0154C1AEF1BCCD /* UIView+YSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+YSAddition.h"; path = "../UIView+YSAddition.h"; sourceTree = "<group>"; };
+		CFCBE2BBD6018995CDF902AD /* YSSeatsIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSSeatsIndexView.h; path = ../YSSeatsIndexView.h; sourceTree = "<group>"; };
+		CFCBE3A2A7969417054E4A70 /* YSCenterLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSCenterLineView.m; path = ../YSCenterLineView.m; sourceTree = "<group>"; };
+		CFCBE6B314C536C6B5FB4416 /* YSSeatsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSSeatsButton.h; path = ../YSSeatsButton.h; sourceTree = "<group>"; };
+		CFCBE80D2D8C5DA4F54E3230 /* YSHallLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSHallLogoView.h; path = ../YSHallLogoView.h; sourceTree = "<group>"; };
+		CFCBEA04B55E3D7D67BD5A54 /* YSCenterLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSCenterLineView.h; path = ../YSCenterLineView.h; sourceTree = "<group>"; };
+		CFCBEA4779612F424ACC6D30 /* YSSeatsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSSeatsButton.m; path = ../YSSeatsButton.m; sourceTree = "<group>"; };
+		CFCBEA6879226AF7BEBDD992 /* YSSeatsIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSSeatsIndexView.m; path = ../YSSeatsIndexView.m; sourceTree = "<group>"; };
+		CFCBEAC686C2F5E627D29888 /* YSSeatsPickerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSSeatsPickerHeader.h; path = ../YSSeatsPickerHeader.h; sourceTree = "<group>"; };
+		CFCBEAE68DBA40FCCDB1F408 /* YSIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSIndicatorView.h; path = ../YSIndicatorView.h; sourceTree = "<group>"; };
+		CFCBEBA2825078C67C817756 /* UIView+YSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+YSAddition.m"; path = "../UIView+YSAddition.m"; sourceTree = "<group>"; };
+		CFCBED92C7EB51B5CE1401D7 /* YSIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSIndicatorView.m; path = ../YSIndicatorView.m; sourceTree = "<group>"; };
+		D1C0C577315F3C2F80B11EF60A57D3F9 /* Pods-YSSeatsPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSSeatsPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4AA39722992178C121890FF107BDFDB /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
+		D725FBDEC1404E92AAA9585E2D188D8E /* Pods-YSSeatsPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSSeatsPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DCAC8F6E5D2A60ED4F8A1504FFF60488 /* YSMovieSeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSMovieSeat.h; sourceTree = "<group>"; };
+		E1CDEC88926F3ECF5A354C7F200A0A91 /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExtension.modulemap; sourceTree = "<group>"; };
+		E1F2D4B6FA59D541EA2D7414CED63243 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		EAE230A136C33D5DFC04E7CF843F6AA3 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		F1677E44A587E61DCA0F931B2889708A /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		F613EADE15467FC2986B6398A8998D6F /* YSMovieSeat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSMovieSeat.m; sourceTree = "<group>"; };
+		F774351F6DDA1F4B2C22809B375A59DF /* Pods-YSSeatsPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSSeatsPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		F91CF9BB22485DC3F39D5C2F60905F49 /* MJExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.release.xcconfig; sourceTree = "<group>"; };
+		F9888BA6FEC1DE1D26D45D995FBAE643 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
+		FF3EC7697C06928A4F2AFE41098C5A7B /* YSSeatsPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSSeatsPicker-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01F5D8AA0DC41A81CA94CB320713D684 /* Frameworks */ = {
+		1C293A114FBB4CA58C21B9AEC0EBD63B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E04F7FD19DB0B64EA10207786F864EB /* Foundation.framework in Frameworks */,
+				EF2B5879EB0AC8EF2C4E92B17D4F62C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36255F943DB0990716C8FDCFC065E46B /* Frameworks */ = {
+		8DB624C6E7886D20DB732A06AEE3193E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7AD74FDED30B69518D342462E71F76E /* Foundation.framework in Frameworks */,
+				879971388AB685F1B4B97B7EDA799DAF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43B6AA91B26D0AD629EC51F85F3047D7 /* Frameworks */ = {
+		922ADF6D1885EACC07A81D2D4810A75E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA9032250A1C081FE9256987BEA7DEF /* Foundation.framework in Frameworks */,
+				60994706AA16B07EAA4D01012262FAB2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E31FF9662B8F78304859946E0883FEF /* Frameworks */ = {
+		E3DFB7F06EC80553131DB5B0993D681C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E46BBE326FB10A351BB37C883BB2DE69 /* Foundation.framework in Frameworks */,
+				464BE5F294EA7CC26AE101D0A24EFB3C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20F73F182F9BE5BB03416DE2DCE270AD /* Support Files */ = {
+		06520E327D7FA7447D82A1ABEB80CE76 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4042F751B582695E5BDAEBCF605BBF93 /* Info.plist */,
-				355FE1A44815D024EE3C7CC9A619E54D /* MJExtension.modulemap */,
-				43A423FA70AA30D6F2A27D4632FA3DA7 /* MJExtension.xcconfig */,
-				A6F39865043ADE8A6C5C7161C21F5942 /* MJExtension-dummy.m */,
-				D9B34E0F2D80D48B7F00540C7733B21F /* MJExtension-prefix.pch */,
-				871F4E87C6D9BE7F5B1DFE948341EB0E /* MJExtension-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MJExtension";
-			sourceTree = "<group>";
-		};
-		23D7A397EE7B97B8B4BC9FB693C7D0A0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9D0478851D505352A28646FC67C299A7 /* YSSeatsPicker */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		35A8F318834193E814EAEBBCDEED01C4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DCBD0601FB711B336CB2B2B87F56F868 /* Pods-YSSeatsPicker_Example */,
-				C2340E4BB7C21CA6EB5D30FCEB2F5550 /* Pods-YSSeatsPicker_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4B7559E1D8CC21FD5E463ED36A8A674A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C80C04D32B7A277AE81E06FE4E014C84 /* MJExtension.framework */,
-				DCBFC1F092A267FB195EAFC811D48BFF /* Pods_YSSeatsPicker_Example.framework */,
-				A80553F8AC1793E4EF3FB07858A92667 /* Pods_YSSeatsPicker_Tests.framework */,
-				F9C14EB2F8F212A1B08C08C708DC856E /* YSSeatsPicker.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4BD734C516BFAE8D2EC3C7294429BC39 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2AF2E4E319FA37E421350044D22A14E4 /* ZYSMovie.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5550146568B8DB8BE45675B01F95C727 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				EE477F978E557018E47EFB1836A4AD9D /* YSMovieSeat.h */,
-				22F21765E7E22C669730DCA31CE5FC27 /* YSMovieSeat.m */,
-				2E0BA149DC4D117C8CD7AC6DF4C911EC /* YSMovieSection.h */,
-				631AAF3F845826F3C100F85D4F3B4BB1 /* YSMovieSection.m */,
-				4A7F5C7FB000F355E2E03A5106F94E8A /* YSMovieTools.h */,
-				D5B7BCA18DDD4DA24099FD51C35A27C8 /* YSMovieTools.m */,
-			);
-			name = Models;
-			path = YSSeatsPicker/Classes/Models;
-			sourceTree = "<group>";
-		};
-		6F71915515618116F8C96F8B6A718E40 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1A1D6C2A1F25106D62FB7E180C845D9F /* Info.plist */,
-				7A69F0A3BDE8E6782CF7E3FFB131FFC9 /* YSSeatsPicker.modulemap */,
-				E87B36AD75E049F473096502878E493C /* YSSeatsPicker.xcconfig */,
-				043769942FE00243C92CE8F7AB3DC7FC /* YSSeatsPicker-dummy.m */,
-				1373DE3DDE225B5667E83861D6D4A10A /* YSSeatsPicker-prefix.pch */,
-				B978A7A958EAC3F16306E0B18426EE25 /* YSSeatsPicker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YSSeatsPicker";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				23D7A397EE7B97B8B4BC9FB693C7D0A0 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				88FDEAC399DE779333B834CB61569CEF /* Pods */,
-				4B7559E1D8CC21FD5E463ED36A8A674A /* Products */,
-				35A8F318834193E814EAEBBCDEED01C4 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		88FDEAC399DE779333B834CB61569CEF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FCDFB6E3D607F6356178E2CCB780E066 /* MJExtension */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		8EB955BB0947C374116ED77ED1F9069C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				46F9A428082FD14A9DBCBBE54C9A27B3 /* UIView+YSAddition.h */,
-				6EB02BDFB1ADEEF84060538ED6742F93 /* UIView+YSAddition.m */,
-				991E0BDBD68056B62887AB10F413AF0D /* YSCenterLineView.h */,
-				42D6FED6FA5958872B49A6C6D23A718D /* YSCenterLineView.m */,
-				8306D1CE6A5EE5F271E15B38516ADE07 /* YSHallLogoView.h */,
-				5928AAA0C323CFD99F9DA339853C48DF /* YSHallLogoView.m */,
-				2B95E9D3D207025EDD98A7EE18DD5FDF /* YSIndicatorView.h */,
-				088BA9E75B38DF6AD03164E4D1058832 /* YSIndicatorView.m */,
-				7DD3A1C8E5A04F496B741B82D28ABF08 /* YSSeatsButton.h */,
-				11C474871FCD8B832ED4EB5E29ECCB30 /* YSSeatsButton.m */,
-				E1BB9D7D9023999893CC9E07EF4B1FC3 /* YSSeatsIndexView.h */,
-				8DD5B4225109487E783F8BEFBAEDC15B /* YSSeatsIndexView.m */,
-				D73B4547163207A592BEFCB713ED6C9A /* YSSeatsPicker.h */,
-				3267DCE61C79F5B0F8066A15182A94D8 /* YSSeatsPicker.m */,
-				0600BD5CA8439925484F2008A69E7623 /* YSSeatsPickerHeader.h */,
+				227E7390A78787019533EFC934A0AC4D /* YSSeatsPicker.h */,
+				6A7AF44E7426A32CEA715C622943855C /* YSSeatsPicker.m */,
+				CFCBE4AE90DCEF5D8D984882 /* View */,
+				CFCBEB75C2E2823C3FBEC62B /* Help */,
 			);
 			name = Views;
 			path = YSSeatsPicker/Classes/Views;
 			sourceTree = "<group>";
 		};
-		9D0478851D505352A28646FC67C299A7 /* YSSeatsPicker */ = {
+		09CFB7B0128F70A029CD34F214B5EEA3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5550146568B8DB8BE45675B01F95C727 /* Models */,
-				4BD734C516BFAE8D2EC3C7294429BC39 /* Resources */,
-				6F71915515618116F8C96F8B6A718E40 /* Support Files */,
-				8EB955BB0947C374116ED77ED1F9069C /* Views */,
+				E1CDEC88926F3ECF5A354C7F200A0A91 /* MJExtension.modulemap */,
+				EAE230A136C33D5DFC04E7CF843F6AA3 /* MJExtension-dummy.m */,
+				B3E2896E58D70126F579F90790BB4670 /* MJExtension-Info.plist */,
+				520A3A9FD574A96B394D81B865C1E6BB /* MJExtension-prefix.pch */,
+				D4AA39722992178C121890FF107BDFDB /* MJExtension-umbrella.h */,
+				CE4AE92E87BA615AC8C329B245AB7B44 /* MJExtension.debug.xcconfig */,
+				F91CF9BB22485DC3F39D5C2F60905F49 /* MJExtension.release.xcconfig */,
 			);
-			name = YSSeatsPicker;
-			path = ../..;
+			name = "Support Files";
+			path = "../Target Support Files/MJExtension";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		1B41A48E0563BD5883C859BBC0F4E7B4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				AE9D68F98D25C88F524FC04232894FCF /* YSSeatsPicker */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C2340E4BB7C21CA6EB5D30FCEB2F5550 /* Pods-YSSeatsPicker_Tests */ = {
+		1E898B6C1460B869953E69296C31D8AF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				547E04D294F257132BC831ADCECD9C6F /* Info.plist */,
-				C9ECC967E891FF92252398B969B05EDF /* Pods-YSSeatsPicker_Tests.modulemap */,
-				667EFD6237ACA4839F87273143773D4C /* Pods-YSSeatsPicker_Tests-acknowledgements.markdown */,
-				368E774FF38975D032B5E4823FFFE72C /* Pods-YSSeatsPicker_Tests-acknowledgements.plist */,
-				5311D418291322C81E7F03A6D625873D /* Pods-YSSeatsPicker_Tests-dummy.m */,
-				28A81D929F589E43A21CF4246F581E92 /* Pods-YSSeatsPicker_Tests-frameworks.sh */,
-				22802D6503C93A29B4C630172941360A /* Pods-YSSeatsPicker_Tests-resources.sh */,
-				A48AF133067B5E6E2B1DFC22E1F649E0 /* Pods-YSSeatsPicker_Tests-umbrella.h */,
-				A93E3C6635323BCD8BAFDF9C03A2610D /* Pods-YSSeatsPicker_Tests.debug.xcconfig */,
-				9E964DD096C0F8A67DCB5F87F845A92D /* Pods-YSSeatsPicker_Tests.release.xcconfig */,
+				529845419E9243E9CAA7ED8BBEABF3D6 /* Pods-YSSeatsPicker_Example */,
+				E9B6FD99EBFAC9A5890F5C8481FC308F /* Pods-YSSeatsPicker_Tests */,
 			);
-			name = "Pods-YSSeatsPicker_Tests";
-			path = "Target Support Files/Pods-YSSeatsPicker_Tests";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		20435DF9031711AA9240FB323D1CCCB8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				DCAC8F6E5D2A60ED4F8A1504FFF60488 /* YSMovieSeat.h */,
+				F613EADE15467FC2986B6398A8998D6F /* YSMovieSeat.m */,
+				4541AF44CC4ED44AD1DF7C62AA6A0AAC /* YSMovieSection.h */,
+				CF4C754F74C53558BFCF249B6446581F /* YSMovieSection.m */,
+				B538D3FDD44F4D8D2BB06653562F0103 /* YSMovieTools.h */,
+				17B9FE73D3077B46C3780DB1EBB90195 /* YSMovieTools.m */,
 			);
-			name = iOS;
+			name = Models;
+			path = YSSeatsPicker/Classes/Models;
 			sourceTree = "<group>";
 		};
-		DCBD0601FB711B336CB2B2B87F56F868 /* Pods-YSSeatsPicker_Example */ = {
+		255BA251E8C62C303DB691F6C438562A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				355099623F7530895DDFB8F60F072DC0 /* Info.plist */,
-				6889FFE66F336792FA6123BE113B4663 /* Pods-YSSeatsPicker_Example.modulemap */,
-				3A898EFF4E7A1586E92094F94B89A8E2 /* Pods-YSSeatsPicker_Example-acknowledgements.markdown */,
-				44A7C3C2CFE34D3DD33C0EB8F8B816BF /* Pods-YSSeatsPicker_Example-acknowledgements.plist */,
-				147C0EB046BCDCE4AF7FE25E4E6239F3 /* Pods-YSSeatsPicker_Example-dummy.m */,
-				371DCC627A9CFFCE0AE44F6A3869ABF4 /* Pods-YSSeatsPicker_Example-frameworks.sh */,
-				79C7299B4F895E3ED2C0A1E73AA8FA4E /* Pods-YSSeatsPicker_Example-resources.sh */,
-				4A5C8CE37C2B14052D271F5B495A458F /* Pods-YSSeatsPicker_Example-umbrella.h */,
-				D353FBC066C01622661B65670D1F297E /* Pods-YSSeatsPicker_Example.debug.xcconfig */,
-				7D9ABD7A0EC7FCB699B33C4E3C6422F7 /* Pods-YSSeatsPicker_Example.release.xcconfig */,
+				718B609EF8F64B71E13C2719CC23BE33 /* YSSeatsPicker.modulemap */,
+				8819E9CAC438027F99B1288BF948727C /* YSSeatsPicker-dummy.m */,
+				966A259E9D7037222198CEB02509A6CC /* YSSeatsPicker-Info.plist */,
+				FF3EC7697C06928A4F2AFE41098C5A7B /* YSSeatsPicker-prefix.pch */,
+				889FD38F0F6FBAE4B8B2271AF6F089DE /* YSSeatsPicker-umbrella.h */,
+				79C616BF9BD9174301E16AF42951B2E5 /* YSSeatsPicker.debug.xcconfig */,
+				91BF16CBA944B1CB1E77B67612DC46E0 /* YSSeatsPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YSSeatsPicker";
+			sourceTree = "<group>";
+		};
+		529845419E9243E9CAA7ED8BBEABF3D6 /* Pods-YSSeatsPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C82CFA68338AEADD159FADC48FB51D1E /* Pods-YSSeatsPicker_Example.modulemap */,
+				5E9B265E4D77835B61A0DFBC91293F80 /* Pods-YSSeatsPicker_Example-acknowledgements.markdown */,
+				D1C0C577315F3C2F80B11EF60A57D3F9 /* Pods-YSSeatsPicker_Example-acknowledgements.plist */,
+				F774351F6DDA1F4B2C22809B375A59DF /* Pods-YSSeatsPicker_Example-dummy.m */,
+				88BADB11EFD33109D0F47395F9F6B2E7 /* Pods-YSSeatsPicker_Example-frameworks.sh */,
+				A7E0E4C7DAE2FC0431C810A8414E4F36 /* Pods-YSSeatsPicker_Example-Info.plist */,
+				60881390D749F8E7E7E0E2C633639E5D /* Pods-YSSeatsPicker_Example-umbrella.h */,
+				8B12F986CFAB83866E5CBC07A656C387 /* Pods-YSSeatsPicker_Example.debug.xcconfig */,
+				BDA2B3314730109EA5D592F99FA0D7D4 /* Pods-YSSeatsPicker_Example.release.xcconfig */,
 			);
 			name = "Pods-YSSeatsPicker_Example";
 			path = "Target Support Files/Pods-YSSeatsPicker_Example";
 			sourceTree = "<group>";
 		};
-		FCDFB6E3D607F6356178E2CCB780E066 /* MJExtension */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				EF1C24B69A9CA3A0E89CD5BFA5FF4A8F /* MJExtension.h */,
-				F21D3B6AB8A0B971DE7A16782E2E38A0 /* MJExtensionConst.h */,
-				AF5C8878A9E0690D04B5D51B122920D7 /* MJExtensionConst.m */,
-				E2A3A3C34DED74C98A33BB0948DCBCEB /* MJFoundation.h */,
-				545233A544BE3DDF31F05409EE873594 /* MJFoundation.m */,
-				63D90F731A3053DB7591E623D48A281E /* MJProperty.h */,
-				790A2F1E41BCD00D834922AF37F8FCC7 /* MJProperty.m */,
-				CDAA16945786608E1C9962CCE56900A6 /* MJPropertyKey.h */,
-				EB574A30430349912B9AA0E12991FB76 /* MJPropertyKey.m */,
-				0E3BDE87C47FE4DA2F8B63B9423E7E1E /* MJPropertyType.h */,
-				5AB6FF722B58512EAF636070DC72CC7A /* MJPropertyType.m */,
-				B4C4E8583FBE38883C9A8F6CED0B9AB8 /* NSObject+MJClass.h */,
-				9193F6B3E7DA4B89DB231331D181C4B9 /* NSObject+MJClass.m */,
-				C5F358B618C95AF5B81525A3E913689B /* NSObject+MJCoding.h */,
-				E18CF79B9C18D81A7E99EA6A3B69C77F /* NSObject+MJCoding.m */,
-				BA34D708EF1B72D4A38AC39D19AD1F24 /* NSObject+MJKeyValue.h */,
-				F18D18F4F677D18DFE17FF43AA71A3C6 /* NSObject+MJKeyValue.m */,
-				EDDBBBC1617D4C1B338F6208FFEC7DC4 /* NSObject+MJProperty.h */,
-				73D6FB284F79679CAFC96E2B374FF302 /* NSObject+MJProperty.m */,
-				0A410D0C9C7AA0EF8CB20F85639B8D29 /* NSString+MJExtension.h */,
-				814D74953564BF921B106C5A8A00E18F /* NSString+MJExtension.m */,
-				20F73F182F9BE5BB03416DE2DCE270AD /* Support Files */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = MJExtension;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		808A5CABAA06C682B29EC43B40BF875E /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D1CDFA422DF34E039272161E024D3 /* MJExtension.h */,
+				5AC2F4FEDA5480035CE1BAF83E25D914 /* MJExtensionConst.h */,
+				8C0EC9D5133B0B0939C524CD463CB225 /* MJExtensionConst.m */,
+				2A92C2B40005CF9A440380490CC1C808 /* MJFoundation.h */,
+				CCD8143D09D486240B9457CEDB2F4921 /* MJFoundation.m */,
+				1D2E660F26D90631109BC6C139DCBE03 /* MJProperty.h */,
+				B7C748F53D69C9F41894F8E3EE99D4E6 /* MJProperty.m */,
+				647DEB7154D476B029B4483DB8CE289E /* MJPropertyKey.h */,
+				F9888BA6FEC1DE1D26D45D995FBAE643 /* MJPropertyKey.m */,
+				F1677E44A587E61DCA0F931B2889708A /* MJPropertyType.h */,
+				9439ED235893B1765356769F00419D69 /* MJPropertyType.m */,
+				7A82A404B552FB57557D37DC51173CFF /* NSObject+MJClass.h */,
+				A9DBDD41C00E04DBB9C274BD293F14DA /* NSObject+MJClass.m */,
+				B925662A8ED0D15431C1D807885D30C8 /* NSObject+MJCoding.h */,
+				38FAF5EB1DD403C7CDB888674662D978 /* NSObject+MJCoding.m */,
+				722454F711E3EB3686DFDDA5905AD548 /* NSObject+MJKeyValue.h */,
+				15E382DC0FAFC66BEB5E97EC9FA55C4C /* NSObject+MJKeyValue.m */,
+				52E1F10EA913620099996314C434C50D /* NSObject+MJProperty.h */,
+				E1F2D4B6FA59D541EA2D7414CED63243 /* NSObject+MJProperty.m */,
+				9EAED9402B0A0ED183081BF7FABAA59F /* NSString+MJExtension.h */,
+				CDD97592D9872742C8B28DA6FC033DB1 /* NSString+MJExtension.m */,
+				09CFB7B0128F70A029CD34F214B5EEA3 /* Support Files */,
+			);
 			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		81B449D1C5574E8B1C1AFD90EFC88381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */,
+				46D5B5CFB54153EC0FA5FDAECEC800D6 /* Pods_YSSeatsPicker_Example.framework */,
+				A71F4545F2FD1645C93C257C08B02334 /* Pods_YSSeatsPicker_Tests.framework */,
+				36694B65D9EAE207E31A7867C9154A8B /* YSSeatsPicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B8339B0697476C82F0A19C5B27A81D4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9C1F5E1ABE703D9A8E6AE9D4FAD0DA07 /* LICENSE */,
+				587A98033EEAE1B48BBE8ED305B88409 /* README.md */,
+				1223231E266F0A9C0B21936E736F8F93 /* YSSeatsPicker.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AE9D68F98D25C88F524FC04232894FCF /* YSSeatsPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0987812C30EA10DB11519C3102C36340 /* ZYSMovie.bundle */,
+				20435DF9031711AA9240FB323D1CCCB8 /* Models */,
+				9B8339B0697476C82F0A19C5B27A81D4 /* Pod */,
+				255BA251E8C62C303DB691F6C438562A /* Support Files */,
+				06520E327D7FA7447D82A1ABEB80CE76 /* Views */,
+			);
+			name = YSSeatsPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BBE7F25BDF6E2ECE64867498D8902AF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				808A5CABAA06C682B29EC43B40BF875E /* MJExtension */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1B41A48E0563BD5883C859BBC0F4E7B4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BBE7F25BDF6E2ECE64867498D8902AF4 /* Pods */,
+				81B449D1C5574E8B1C1AFD90EFC88381 /* Products */,
+				1E898B6C1460B869953E69296C31D8AF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFCBE4AE90DCEF5D8D984882 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFCBEA04B55E3D7D67BD5A54 /* YSCenterLineView.h */,
+				CFCBE3A2A7969417054E4A70 /* YSCenterLineView.m */,
+				CFCBE80D2D8C5DA4F54E3230 /* YSHallLogoView.h */,
+				CFCBE0956E50FE056D27C7A8 /* YSHallLogoView.m */,
+				CFCBEAE68DBA40FCCDB1F408 /* YSIndicatorView.h */,
+				CFCBED92C7EB51B5CE1401D7 /* YSIndicatorView.m */,
+				CFCBE6B314C536C6B5FB4416 /* YSSeatsButton.h */,
+				CFCBEA4779612F424ACC6D30 /* YSSeatsButton.m */,
+				CFCBE2BBD6018995CDF902AD /* YSSeatsIndexView.h */,
+				CFCBEA6879226AF7BEBDD992 /* YSSeatsIndexView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFCBEB75C2E2823C3FBEC62B /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				CFCBE1D3BB0154C1AEF1BCCD /* UIView+YSAddition.h */,
+				CFCBEBA2825078C67C817756 /* UIView+YSAddition.m */,
+				CFCBEAC686C2F5E627D29888 /* YSSeatsPickerHeader.h */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9B6FD99EBFAC9A5890F5C8481FC308F /* Pods-YSSeatsPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE50B7EE9A124F287F0E8BD0FA9A1D65 /* Pods-YSSeatsPicker_Tests.modulemap */,
+				0661CE42271C3D832851D7C1C492D01B /* Pods-YSSeatsPicker_Tests-acknowledgements.markdown */,
+				0A40540F7C68D4BD6FB630438A336B10 /* Pods-YSSeatsPicker_Tests-acknowledgements.plist */,
+				62679A67233804CE693BEF7A490A091F /* Pods-YSSeatsPicker_Tests-dummy.m */,
+				2B172359AAB5A522D44668C0BBF3EBEE /* Pods-YSSeatsPicker_Tests-Info.plist */,
+				D725FBDEC1404E92AAA9585E2D188D8E /* Pods-YSSeatsPicker_Tests-umbrella.h */,
+				179DDBD46C07A1F020340A47F746FD4F /* Pods-YSSeatsPicker_Tests.debug.xcconfig */,
+				09B021829FBEAA027288A38973C0845A /* Pods-YSSeatsPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-YSSeatsPicker_Tests";
+			path = "Target Support Files/Pods-YSSeatsPicker_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		005570CF680B8D6B3D989307689489D2 /* Headers */ = {
+		2D4E764841D730D4DC44313E40D75BB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5CD2373C28A39FC82706F25D5FDB5C3 /* Pods-YSSeatsPicker_Example-umbrella.h in Headers */,
+				54B348888465583C533D048D03AEF71B /* YSMovieSeat.h in Headers */,
+				C335E40BDDC668EF75062F7DE066D34A /* YSMovieSection.h in Headers */,
+				C4F2F36D475E9D0FB20D9D0BDFCA5072 /* YSMovieTools.h in Headers */,
+				A058A2CF864C3B315E4EC53EA44C2622 /* YSSeatsPicker-umbrella.h in Headers */,
+				04A695C58948C73FF485B8D853E1C47A /* YSSeatsPicker.h in Headers */,
+				CFCBED7AFC55DD361A587595 /* YSHallLogoView.h in Headers */,
+				CFCBE99DADD44CFE2AF31641 /* YSIndicatorView.h in Headers */,
+				CFCBE62D06043534010AC879 /* YSCenterLineView.h in Headers */,
+				CFCBE9218685BA008C4B1E5B /* YSSeatsIndexView.h in Headers */,
+				CFCBE21AF431CF725AB9CB74 /* YSSeatsButton.h in Headers */,
+				CFCBEBFC5D7E390DEA11E8B7 /* UIView+YSAddition.h in Headers */,
+				CFCBE891031C4194F26A6647 /* YSSeatsPickerHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E189498C603DED54665ED8AE638E42B /* Headers */ = {
+		9DFCD72E4DDE2A559DDCDF26221AD1B3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1780B535125B1EE3F705B1D56A7F5F63 /* UIView+YSAddition.h in Headers */,
-				B8390A3BAC70A72CEFC32A5AECFB1E63 /* YSCenterLineView.h in Headers */,
-				300E98C1A679785CFF1897421B2C7837 /* YSHallLogoView.h in Headers */,
-				1F03B8D375D6E9BEACF24EFE010C1F9F /* YSIndicatorView.h in Headers */,
-				BA506236475B5ED8122E4EE17FA387E1 /* YSMovieSeat.h in Headers */,
-				B26868726D9ED8BEE961BCC4F7D72E05 /* YSMovieSection.h in Headers */,
-				1649B9624B3AB3616040A33FEDDF659D /* YSMovieTools.h in Headers */,
-				BFC85CA600741BB6F356F56B9424D976 /* YSSeatsButton.h in Headers */,
-				D01AEDD696993D44A516A8E1B8A1C2B4 /* YSSeatsIndexView.h in Headers */,
-				1F763DC58B453173403A500D05ECD141 /* YSSeatsPicker-umbrella.h in Headers */,
-				B5BD73E37A532CF22E8ECF7640B71FFB /* YSSeatsPicker.h in Headers */,
-				1A3BD291C54265A5042873879164134E /* YSSeatsPickerHeader.h in Headers */,
+				83455FB7689A34DD947D2208C21C6155 /* Pods-YSSeatsPicker_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6F9884F42B327D104C2B9FD9543ACF3 /* Headers */ = {
+		B21E159F37743FD7409C5CF0B5A2DBA7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF613C45AD04248C52488C4F7CA3719B /* Pods-YSSeatsPicker_Tests-umbrella.h in Headers */,
+				B7A369784E9501E40333AE9D082E98BA /* Pods-YSSeatsPicker_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBC8EBF9CF85747F8988979882C90A62 /* Headers */ = {
+		DB1DE317F3D4815D87890DEB09B99C2E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75E2AE2D12480AE889D1D3B7A654FAA /* MJExtension-umbrella.h in Headers */,
-				6DA14D61DB56E00FF18F2F75C51454AE /* MJExtension.h in Headers */,
-				1FBFD94316326DCB9485F8704696806B /* MJExtensionConst.h in Headers */,
-				E5FCA2ABBE2C5EF75F004103BC26D472 /* MJFoundation.h in Headers */,
-				58EFF22FEFA78894F9F808799F961BD5 /* MJProperty.h in Headers */,
-				A61CBA1B7EC469C602F47186539239E0 /* MJPropertyKey.h in Headers */,
-				5E89ED15FDB4CE7F92544DDF4589C242 /* MJPropertyType.h in Headers */,
-				11BF0A3C217C5233EF08A6A2623CEA80 /* NSObject+MJClass.h in Headers */,
-				64298620A2F1EFAB12386F3861E08D40 /* NSObject+MJCoding.h in Headers */,
-				B7B68FDABB146B87FA3C9E987D2014DE /* NSObject+MJKeyValue.h in Headers */,
-				383448308BB9C5CB67073E0A8DED4A43 /* NSObject+MJProperty.h in Headers */,
-				5BD2A9D0D752792C18F1E7F6CDBEB0FA /* NSString+MJExtension.h in Headers */,
+				41BBD20F99D3D0EFD9D38337503D4C1F /* MJExtension-umbrella.h in Headers */,
+				9796F9FAC1941A992E8B17F31D62B2E4 /* MJExtension.h in Headers */,
+				912758556B9AB1DEEABE189955C5B8F2 /* MJExtensionConst.h in Headers */,
+				CAD2539BE3C4AB2F1FD1DF30D7629238 /* MJFoundation.h in Headers */,
+				FAB7CF107E7E3EE6FA7949CF18B8BA12 /* MJProperty.h in Headers */,
+				A47472F50A3A7869A644789159571A5C /* MJPropertyKey.h in Headers */,
+				B94AD428EA4EFD7BA79BCF57680D390A /* MJPropertyType.h in Headers */,
+				F0EF96DAB145D1B2247C01B3517B54FE /* NSObject+MJClass.h in Headers */,
+				6EC015330CAC3D60745A20B01928B8DB /* NSObject+MJCoding.h in Headers */,
+				25E03213AA01D83EB415A04635B34F1A /* NSObject+MJKeyValue.h in Headers */,
+				C0C8961B2EAF90DA7244B427C569FCFD /* NSObject+MJProperty.h in Headers */,
+				51E7A17D617310CE81444F5D315EAEF0 /* NSString+MJExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5AA17C95E926B760FD08E0B487DAEFA2 /* MJExtension */ = {
+		03308FCF8E7A776235F84EAF5D9A9274 /* Pods-YSSeatsPicker_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06564E4F5A40A02610AFA51432CB9187 /* Build configuration list for PBXNativeTarget "MJExtension" */;
+			buildConfigurationList = BA7EA20DBE57582772397C5EF16AE286 /* Build configuration list for PBXNativeTarget "Pods-YSSeatsPicker_Example" */;
 			buildPhases = (
-				4962C9C292AEFFE5F9C38D2D21A02B48 /* Sources */,
-				01F5D8AA0DC41A81CA94CB320713D684 /* Frameworks */,
-				EBC8EBF9CF85747F8988979882C90A62 /* Headers */,
+				9DFCD72E4DDE2A559DDCDF26221AD1B3 /* Headers */,
+				3520B3AFC4D9E6079D634EEEF0FAF608 /* Sources */,
+				1C293A114FBB4CA58C21B9AEC0EBD63B /* Frameworks */,
+				0ED2C226BE819605A7EA0AC63F87843A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FA9B81FA68CC1EB8E52C1B65FC856C /* PBXTargetDependency */,
+				5E94FD35DC33BC2953C7B058F0EA3226 /* PBXTargetDependency */,
+			);
+			name = "Pods-YSSeatsPicker_Example";
+			productName = "Pods-YSSeatsPicker_Example";
+			productReference = 46D5B5CFB54153EC0FA5FDAECEC800D6 /* Pods_YSSeatsPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8E68449A18121BC5A5B5C491F1283E /* Build configuration list for PBXNativeTarget "MJExtension" */;
+			buildPhases = (
+				DB1DE317F3D4815D87890DEB09B99C2E /* Headers */,
+				7062CDA8FD11E2E9D19A9A40021C44AD /* Sources */,
+				E3DFB7F06EC80553131DB5B0993D681C /* Frameworks */,
+				5526C4C8822D8F13C2C736A5F9677481 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -490,53 +537,36 @@
 			);
 			name = MJExtension;
 			productName = MJExtension;
-			productReference = C80C04D32B7A277AE81E06FE4E014C84 /* MJExtension.framework */;
+			productReference = 2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7AA515053D0A244BA79B0C9F87A4EB2F /* Pods-YSSeatsPicker_Tests */ = {
+		AAB134835AAB1506AF85070866D749B0 /* Pods-YSSeatsPicker_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82FB655DF3D906D73467B514E3C22B9C /* Build configuration list for PBXNativeTarget "Pods-YSSeatsPicker_Tests" */;
+			buildConfigurationList = 2198381B7FD4A880930849794E83DF20 /* Build configuration list for PBXNativeTarget "Pods-YSSeatsPicker_Tests" */;
 			buildPhases = (
-				A66D80033CAB86DB62E80B64E87E3894 /* Sources */,
-				43B6AA91B26D0AD629EC51F85F3047D7 /* Frameworks */,
-				D6F9884F42B327D104C2B9FD9543ACF3 /* Headers */,
+				B21E159F37743FD7409C5CF0B5A2DBA7 /* Headers */,
+				B296DD17401F728622B4B329881622C7 /* Sources */,
+				922ADF6D1885EACC07A81D2D4810A75E /* Frameworks */,
+				3D692B7CDEBCC2A6963BF48197E52D71 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				411104A31B46BFB375FC39B3840E8356 /* PBXTargetDependency */,
 			);
 			name = "Pods-YSSeatsPicker_Tests";
 			productName = "Pods-YSSeatsPicker_Tests";
-			productReference = A80553F8AC1793E4EF3FB07858A92667 /* Pods_YSSeatsPicker_Tests.framework */;
+			productReference = A71F4545F2FD1645C93C257C08B02334 /* Pods_YSSeatsPicker_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C192AD2E87DE3F8D2FD24A006FC6A6F2 /* Pods-YSSeatsPicker_Example */ = {
+		F6071D5F0A9410A7C33C2FB71D67990B /* YSSeatsPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C042C606F61E6A01ADE932A574FDB77D /* Build configuration list for PBXNativeTarget "Pods-YSSeatsPicker_Example" */;
+			buildConfigurationList = 7E4A0CBBBF49BE6A43E25498973A192E /* Build configuration list for PBXNativeTarget "YSSeatsPicker" */;
 			buildPhases = (
-				C06D648D7D0B1DFF5AD161661175A9CE /* Sources */,
-				5E31FF9662B8F78304859946E0883FEF /* Frameworks */,
-				005570CF680B8D6B3D989307689489D2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA7C40B74D10637C872672DDB5B3CEFC /* PBXTargetDependency */,
-				E244994DD1F6B211C70039F5099A364C /* PBXTargetDependency */,
-			);
-			name = "Pods-YSSeatsPicker_Example";
-			productName = "Pods-YSSeatsPicker_Example";
-			productReference = DCBFC1F092A267FB195EAFC811D48BFF /* Pods_YSSeatsPicker_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DA988E6A325BC86F9E4BE131E0A1ABB8 /* YSSeatsPicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6B34641FEAAAB6E7B45A0E3CE9E89753 /* Build configuration list for PBXNativeTarget "YSSeatsPicker" */;
-			buildPhases = (
-				709E2F5ACF6840671135FEA467C8256D /* Sources */,
-				36255F943DB0990716C8FDCFC065E46B /* Frameworks */,
-				8E189498C603DED54665ED8AE638E42B /* Headers */,
-				86CF2D012DC3DF5F29F19FDFFC5DA3DB /* Resources */,
+				2D4E764841D730D4DC44313E40D75BB2 /* Headers */,
+				58508656DE0986D1CABAD17FF826B4ED /* Sources */,
+				8DB624C6E7886D20DB732A06AEE3193E /* Frameworks */,
+				702A52D74E98CDAC76BD8F2D8C11F839 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -544,187 +574,152 @@
 			);
 			name = YSSeatsPicker;
 			productName = YSSeatsPicker;
-			productReference = F9C14EB2F8F212A1B08C08C708DC856E /* YSSeatsPicker.framework */;
+			productReference = 36694B65D9EAE207E31A7867C9154A8B /* YSSeatsPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4B7559E1D8CC21FD5E463ED36A8A674A /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 81B449D1C5574E8B1C1AFD90EFC88381 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AA17C95E926B760FD08E0B487DAEFA2 /* MJExtension */,
-				C192AD2E87DE3F8D2FD24A006FC6A6F2 /* Pods-YSSeatsPicker_Example */,
-				7AA515053D0A244BA79B0C9F87A4EB2F /* Pods-YSSeatsPicker_Tests */,
-				DA988E6A325BC86F9E4BE131E0A1ABB8 /* YSSeatsPicker */,
+				4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */,
+				03308FCF8E7A776235F84EAF5D9A9274 /* Pods-YSSeatsPicker_Example */,
+				AAB134835AAB1506AF85070866D749B0 /* Pods-YSSeatsPicker_Tests */,
+				F6071D5F0A9410A7C33C2FB71D67990B /* YSSeatsPicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		86CF2D012DC3DF5F29F19FDFFC5DA3DB /* Resources */ = {
+		0ED2C226BE819605A7EA0AC63F87843A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6343ED5E5D874F8DD7CE370F3876F098 /* ZYSMovie.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D692B7CDEBCC2A6963BF48197E52D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5526C4C8822D8F13C2C736A5F9677481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702A52D74E98CDAC76BD8F2D8C11F839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DADCDCF9E25C9363B995EBD6F5CDD7 /* ZYSMovie.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4962C9C292AEFFE5F9C38D2D21A02B48 /* Sources */ = {
+		3520B3AFC4D9E6079D634EEEF0FAF608 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59A28C2CEFC4537C9DAF55D01C4ACED1 /* MJExtension-dummy.m in Sources */,
-				CD4D283A61707C386754BBD31F5BEABB /* MJExtensionConst.m in Sources */,
-				F53BE19B2CB360AC554A04B27DED8519 /* MJFoundation.m in Sources */,
-				E697D14E581CAEE081A1F6B467A014B7 /* MJProperty.m in Sources */,
-				0A1D1BA5F4A6861F59960AE501A61367 /* MJPropertyKey.m in Sources */,
-				094E6ECE34F0CCB085FAA095D24708F4 /* MJPropertyType.m in Sources */,
-				7410B2A65C0651D85D3B173865D3026B /* NSObject+MJClass.m in Sources */,
-				8EC1C8F8C76EDF5D019E8EBA01C2ABB3 /* NSObject+MJCoding.m in Sources */,
-				0B67D51C35E79EE135E38084317053DA /* NSObject+MJKeyValue.m in Sources */,
-				068F6DF04EF0371EEC29C6787B63910B /* NSObject+MJProperty.m in Sources */,
-				1F3AA5B9EBAAD134BF25B0B89FDF108B /* NSString+MJExtension.m in Sources */,
+				ABF6950C3AAF57FCAA706D1A519670A1 /* Pods-YSSeatsPicker_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		709E2F5ACF6840671135FEA467C8256D /* Sources */ = {
+		58508656DE0986D1CABAD17FF826B4ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98D1108050F3D9E9BB44E8C06C04B660 /* UIView+YSAddition.m in Sources */,
-				8835F9867B83B905F6C75FFD54ADC45C /* YSCenterLineView.m in Sources */,
-				B02C05F25F897D747FE2B7B2B4D4BACC /* YSHallLogoView.m in Sources */,
-				3C51E6346BC8E206FB219EC6B494DE94 /* YSIndicatorView.m in Sources */,
-				B2774A17E9B709B0B900DBB4C6E9363F /* YSMovieSeat.m in Sources */,
-				18691CDE7875E732B251936A13CD92BE /* YSMovieSection.m in Sources */,
-				56B85C22AB91197B0187D76E6705F66C /* YSMovieTools.m in Sources */,
-				FA179AB473FF767743026AF13B1D27B2 /* YSSeatsButton.m in Sources */,
-				FC4C0BD4C813163252B05E283316F57C /* YSSeatsIndexView.m in Sources */,
-				E8C193D5CE82EDAF5022945F5EC30CDB /* YSSeatsPicker-dummy.m in Sources */,
-				BF5E26A11B9EE5566E07E3072F2AF0A5 /* YSSeatsPicker.m in Sources */,
+				2AB68E1FF77C13971F6FA58D6CEA6B56 /* YSMovieSeat.m in Sources */,
+				0BE3BE55C664F32D89864DB437078A07 /* YSMovieSection.m in Sources */,
+				C573BE066F75EBF56D416F5D3BBFAD1E /* YSMovieTools.m in Sources */,
+				C4F6A6680B7F62E4521B55426D490242 /* YSSeatsPicker-dummy.m in Sources */,
+				284BF6AC7B28D1EA5791D595AF2034AF /* YSSeatsPicker.m in Sources */,
+				CFCBE8A7CC13DE80BCA0A8F3 /* YSIndicatorView.m in Sources */,
+				CFCBE6C5D5C71194F067970B /* YSSeatsButton.m in Sources */,
+				CFCBE1CEB10DE6004031824A /* YSSeatsIndexView.m in Sources */,
+				CFCBE83FD460759772AD2E25 /* YSCenterLineView.m in Sources */,
+				CFCBE98BD2321ED321E8667D /* YSHallLogoView.m in Sources */,
+				CFCBEAC6C3DCC57DCA55044E /* UIView+YSAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A66D80033CAB86DB62E80B64E87E3894 /* Sources */ = {
+		7062CDA8FD11E2E9D19A9A40021C44AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0D5610E57EB1A1977EE3544B66E3FBF /* Pods-YSSeatsPicker_Tests-dummy.m in Sources */,
+				05452B06007B8F1969A23C3C9D494CBD /* MJExtension-dummy.m in Sources */,
+				01E3E1FB1F9A0FA56C79608F8139A32F /* MJExtensionConst.m in Sources */,
+				033484819373AB7E020C0026CAE0F7BF /* MJFoundation.m in Sources */,
+				3BAA6DDBE44238B40D6A72A16EF41814 /* MJProperty.m in Sources */,
+				7155607EADA71F37CFE188D866B7E40A /* MJPropertyKey.m in Sources */,
+				8A2E1E487FBFC3DF55C12C056BFA36A1 /* MJPropertyType.m in Sources */,
+				0077E2C1E1042512F36A3204CFD42BEF /* NSObject+MJClass.m in Sources */,
+				7BE71B62F38458AC771581F60006F9CE /* NSObject+MJCoding.m in Sources */,
+				99BF63084CB0EDEA0A9CBB77E8315E6E /* NSObject+MJKeyValue.m in Sources */,
+				07288680C9E7EDC1E240E0E3C50EE65C /* NSObject+MJProperty.m in Sources */,
+				E6775033B3F0080B56E29AB395A08867 /* NSString+MJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C06D648D7D0B1DFF5AD161661175A9CE /* Sources */ = {
+		B296DD17401F728622B4B329881622C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				036C0637B0DDA3EC61C9AC887722F61F /* Pods-YSSeatsPicker_Example-dummy.m in Sources */,
+				234DC1612D3A0AA48B4FA8210BEDB6C8 /* Pods-YSSeatsPicker_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BA7C40B74D10637C872672DDB5B3CEFC /* PBXTargetDependency */ = {
+		411104A31B46BFB375FC39B3840E8356 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MJExtension;
-			target = 5AA17C95E926B760FD08E0B487DAEFA2 /* MJExtension */;
-			targetProxy = 90E0CBDD7160E75FB0F6057ADBC8DF64 /* PBXContainerItemProxy */;
+			name = "Pods-YSSeatsPicker_Example";
+			target = 03308FCF8E7A776235F84EAF5D9A9274 /* Pods-YSSeatsPicker_Example */;
+			targetProxy = D25DE45597A4962F50947B2D16DE868F /* PBXContainerItemProxy */;
 		};
-		E244994DD1F6B211C70039F5099A364C /* PBXTargetDependency */ = {
+		5E94FD35DC33BC2953C7B058F0EA3226 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YSSeatsPicker;
-			target = DA988E6A325BC86F9E4BE131E0A1ABB8 /* YSSeatsPicker */;
-			targetProxy = B4C6DA55469FD5F4D524F02AFA943A10 /* PBXContainerItemProxy */;
+			target = F6071D5F0A9410A7C33C2FB71D67990B /* YSSeatsPicker */;
+			targetProxy = D2CC46F138978E022A0B2A8C1697C6D3 /* PBXContainerItemProxy */;
+		};
+		84FA9B81FA68CC1EB8E52C1B65FC856C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
+			targetProxy = 3F810AFE5BF0DA0495091AF4A9C7F17F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D0D462BBA6CBE0E5D8C8DB1DC2F8AA2 /* Release */ = {
+		02651A8BE191B5AC6C801006AC077574 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D9ABD7A0EC7FCB699B33C4E3C6422F7 /* Pods-YSSeatsPicker_Example.release.xcconfig */;
+			baseConfigurationReference = 91BF16CBA944B1CB1E77B67612DC46E0 /* YSSeatsPicker.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YSSeatsPicker_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YSSeatsPicker_Example/Pods-YSSeatsPicker_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YSSeatsPicker_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0D65121CB2DB1F8177577041C97F023E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43A423FA70AA30D6F2A27D4632FA3DA7 /* MJExtension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJExtension/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
-				PRODUCT_NAME = MJExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		36C8ADE4C4F165EF63AE57B41046AF36 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E87B36AD75E049F473096502878E493C /* YSSeatsPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -734,11 +729,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/YSSeatsPicker/YSSeatsPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YSSeatsPicker/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/YSSeatsPicker/YSSeatsPicker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YSSeatsPicker/YSSeatsPicker.modulemap";
+				PRODUCT_MODULE_NAME = YSSeatsPicker;
 				PRODUCT_NAME = YSSeatsPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -750,11 +746,11 @@
 			};
 			name = Release;
 		};
-		6C9357428110D7E7734B32EF2F9EEE7B /* Release */ = {
+		0DD6024BE9006F091A0E995093FE12D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E964DD096C0F8A67DCB5F87F845A92D /* Pods-YSSeatsPicker_Tests.release.xcconfig */;
+			baseConfigurationReference = 179DDBD46C07A1F020340A47F746FD4F /* Pods-YSSeatsPicker_Tests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -763,7 +759,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YSSeatsPicker_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSSeatsPicker_Tests/Pods-YSSeatsPicker_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -773,21 +769,48 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YSSeatsPicker_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		83F86CA598B512B33CCD324026885FCC /* Release */ = {
+		121A5A7FB79E7405BC9E5D3BA579BD88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43A423FA70AA30D6F2A27D4632FA3DA7 /* MJExtension.xcconfig */;
+			baseConfigurationReference = 79C616BF9BD9174301E16AF42951B2E5 /* YSSeatsPicker.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YSSeatsPicker/YSSeatsPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YSSeatsPicker/YSSeatsPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YSSeatsPicker/YSSeatsPicker.modulemap";
+				PRODUCT_MODULE_NAME = YSSeatsPicker;
+				PRODUCT_NAME = YSSeatsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16D3E1FF6D9BC71C0CD96122E1680A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91CF9BB22485DC3F39D5C2F60905F49 /* MJExtension.release.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -797,11 +820,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJExtension/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_MODULE_NAME = MJExtension;
 				PRODUCT_NAME = MJExtension;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -813,81 +837,23 @@
 			};
 			name = Release;
 		};
-		8BD3EE0FC7B3A70BB60AC8E2E38328D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E87B36AD75E049F473096502878E493C /* YSSeatsPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YSSeatsPicker/YSSeatsPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YSSeatsPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YSSeatsPicker/YSSeatsPicker.modulemap";
-				PRODUCT_NAME = YSSeatsPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8E50D7860D8B8B10A31CAD8C24DA8DE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D353FBC066C01622661B65670D1F297E /* Pods-YSSeatsPicker_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YSSeatsPicker_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YSSeatsPicker_Example/Pods-YSSeatsPicker_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YSSeatsPicker_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -895,15 +861,16 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -922,18 +889,20 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		E260FADED8451A5E81DB88993B13BB2C /* Debug */ = {
+		825E545C2834BFC68838557C506871FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A93E3C6635323BCD8BAFDF9C03A2610D /* Pods-YSSeatsPicker_Tests.debug.xcconfig */;
+			baseConfigurationReference = 8B12F986CFAB83866E5CBC07A656C387 /* Pods-YSSeatsPicker_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -942,17 +911,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YSSeatsPicker_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSSeatsPicker_Example/Pods-YSSeatsPicker_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YSSeatsPicker_Tests/Pods-YSSeatsPicker_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-YSSeatsPicker_Example/Pods-YSSeatsPicker_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YSSeatsPicker_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -961,20 +930,56 @@
 			};
 			name = Debug;
 		};
-		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+		E33BEB88323138466065A2C27D0A010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA2B3314730109EA5D592F99FA0D7D4 /* Pods-YSSeatsPicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSSeatsPicker_Example/Pods-YSSeatsPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSSeatsPicker_Example/Pods-YSSeatsPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -982,15 +987,16 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1011,65 +1017,129 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F2227778631A08480E8C761355DEA186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B021829FBEAA027288A38973C0845A /* Pods-YSSeatsPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSSeatsPicker_Tests/Pods-YSSeatsPicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSSeatsPicker_Tests/Pods-YSSeatsPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F28C71E461DED4592C27C69D6AC05EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4AE92E87BA615AC8C329B245AB7B44 /* MJExtension.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06564E4F5A40A02610AFA51432CB9187 /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
+		2198381B7FD4A880930849794E83DF20 /* Build configuration list for PBXNativeTarget "Pods-YSSeatsPicker_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D65121CB2DB1F8177577041C97F023E /* Debug */,
-				83F86CA598B512B33CCD324026885FCC /* Release */,
+				0DD6024BE9006F091A0E995093FE12D1 /* Debug */,
+				F2227778631A08480E8C761355DEA186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
-				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B34641FEAAAB6E7B45A0E3CE9E89753 /* Build configuration list for PBXNativeTarget "YSSeatsPicker" */ = {
+		5B8E68449A18121BC5A5B5C491F1283E /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BD3EE0FC7B3A70BB60AC8E2E38328D4 /* Debug */,
-				36C8ADE4C4F165EF63AE57B41046AF36 /* Release */,
+				F28C71E461DED4592C27C69D6AC05EE4 /* Debug */,
+				16D3E1FF6D9BC71C0CD96122E1680A78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82FB655DF3D906D73467B514E3C22B9C /* Build configuration list for PBXNativeTarget "Pods-YSSeatsPicker_Tests" */ = {
+		7E4A0CBBBF49BE6A43E25498973A192E /* Build configuration list for PBXNativeTarget "YSSeatsPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E260FADED8451A5E81DB88993B13BB2C /* Debug */,
-				6C9357428110D7E7734B32EF2F9EEE7B /* Release */,
+				121A5A7FB79E7405BC9E5D3BA579BD88 /* Debug */,
+				02651A8BE191B5AC6C801006AC077574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C042C606F61E6A01ADE932A574FDB77D /* Build configuration list for PBXNativeTarget "Pods-YSSeatsPicker_Example" */ = {
+		BA7EA20DBE57582772397C5EF16AE286 /* Build configuration list for PBXNativeTarget "Pods-YSSeatsPicker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E50D7860D8B8B10A31CAD8C24DA8DE4 /* Debug */,
-				0D0D462BBA6CBE0E5D8C8DB1DC2F8AA2 /* Release */,
+				825E545C2834BFC68838557C506871FC /* Debug */,
+				E33BEB88323138466065A2C27D0A010A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

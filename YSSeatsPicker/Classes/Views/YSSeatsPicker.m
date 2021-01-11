@@ -14,7 +14,7 @@
 #import "YSIndicatorView.h"
 
 #import "YSMovieTools.h"
-#import <UIView+YSAddition.h>
+#import "UIView+YSAddition.h"
 
 @interface YSSeatsPicker ()<UIScrollViewDelegate>
 {
@@ -52,7 +52,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-      
+
         _hallLogoImage = [YSMovieTools movieBundleImageWithImageNamed:@"may_mreserve_seat_screen_img"];
         _cinemaLogoImage = [YSMovieTools movieBundleImageWithImageNamed:@"may_mreserve_brand_icon"];
         _hallName = @"IMAX";
